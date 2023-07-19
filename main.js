@@ -6,6 +6,7 @@ form.addEventListener('submit', function(e) {
         mensagemResposta.innerHTML = mensagemCasoB
         campoB.value = ' ';
         campoA.value = ' ';
+        alert('Tudo Certo')
     }
     else {
         mensagemResposta.innerHTML = mensagemCasoA
